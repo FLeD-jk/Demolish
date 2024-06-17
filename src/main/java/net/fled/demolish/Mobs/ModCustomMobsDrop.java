@@ -19,6 +19,7 @@ public class ModCustomMobsDrop {
         if (entity instanceof WitherBoss) {
             // Створення нового об'єкту ItemEntity з ItemStack та додавання його до списку випадкових випадінь
             event.getDrops().add(new ItemEntity(entity.level, entity.getX(), entity.getY(), entity.getZ(), new ItemStack(ModItems.MYAPOLOGIZE.get())));
+            event.getDrops().add(new ItemEntity(entity.level, entity.getX(), entity.getY(), entity.getZ(), new ItemStack(ModItems.LASTNOTE.get())));
         }
     }
 

@@ -1,3 +1,6 @@
 {
-  "item.demolish.myapologize": "My apologize..."
+  "item.demolish.myapologize": "My apologize...",
+  "item.demolish.myapologize.tooltip": "After all these years, I .... I .... I'm sorry....",
+  "item.demolish.lastnote": "The last note",
+  "item.demolish.lastnote.tooltip": "I was so eager to learn everything that I didn't see any boundaries I shouldn't have crossed. That's what ruined me."
 }

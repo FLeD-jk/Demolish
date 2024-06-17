@@ -22,12 +22,11 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> MYAPOLOGIZE = ITEMS.register("myapologize",
-            () -> new SwordItem(Tiers.NETHERITE, 40 , 5.0f , new Item.Properties()
+            () -> new MyApologizeItem(Tiers.NETHERITE, 40 , 5.0f , new Item.Properties()
                     .tab(Demolish.MY_MOD_TAB)
                     .durability(-1)
                     .fireResistant()
                     .rarity(Rarity.EPIC)
             ));
-
-
+    public static final RegistryObject<Item> LASTNOTE = ITEMS.register("lastnote", () -> new ThelastnoteItem( new Item.Properties().tab(Demolish.MY_MOD_TAB)));
 }
